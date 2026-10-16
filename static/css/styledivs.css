@@ -1,0 +1,103 @@
+.fruits{
+    background-color: lightgreen;
+    border: 2px dotted green;
+    color: rgb(171, 18, 18);
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.cars{
+    background-color: lightblue;
+    border: 2px dotted blue;
+    color: rgb(18, 18, 171);
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.background-color{
+    background-color: lightblue;
+    border: 2px dotted blue ;
+    color: rgb(26, 8, 107);
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#computers{
+    background-color: lightyellow;
+    border: 2px dotted yellow;
+    color: rgb(171, 171, 18);
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+.card{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card h2{
+    margin-bottom: 10;
+    color: rgb(11, 211, 11);
+    font-size: 1.5em;
+}
+.card p{
+    color: black;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.header{
+    background-color: rgb(18, 17, 17);
+    
+}
+.navbar{
+    display: flex;
+    background-color: #0BD30B;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    color: #101010;
+   font-size: 50px;
+    font-weight: bold;
+}
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+}
+
+
+
